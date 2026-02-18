@@ -1,0 +1,8 @@
+[versions]
+minestom = "2026.02.09-1.21.11"
+arrow = "2.2.1.1"
+
+[libraries]
+minestom = { group = "net.minestom", name = "minestom", version.ref = "minestom" }
+arrow-core = { group = "io.arrow-kt", name = "arrow-core", version.ref = "arrow" }
+arrow-fx-coroutines = { group = "io.arrow-kt", name = "arrow-fx-coroutines", version.ref = "arrow" }
