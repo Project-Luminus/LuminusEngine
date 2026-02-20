@@ -14,6 +14,12 @@ dependencies {
     implementation(libs.arrow.core)
     implementation(libs.arrow.fx.coroutines)
 
+    // Logging
+    implementation(libs.slf4j.api)
+    implementation(libs.log4j.core)
+    implementation(libs.log4j.slf4j.impl)
+    implementation(libs.kotlin.logging)
+
     testImplementation(kotlin("test"))
 }
 
